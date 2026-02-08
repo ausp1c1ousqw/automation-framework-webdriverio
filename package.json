@@ -1,0 +1,15 @@
+{
+  "name": "automation-framework",
+  "type": "module",
+  "exports": {
+    "./gui": "./gui/index.js",
+    "./utils": "./utils/index.js",
+    "./helpers": "./helpers/index.js",
+    "./logger": "./logger/index.js"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "winston": "^3.19.0",
+    "chai": "^4.3.7"
+  }
+}
